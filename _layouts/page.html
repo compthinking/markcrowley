@@ -49,7 +49,7 @@ layout: default
         <b>PEOPLE</b>
         {% for i in people %}
             {% assign j =  site.people | where: "people", i | first %}
-            | <a href="/{{i}}/">{{i}}</a> 
+            | <a href="/people/{{i}}/">{{i}}</a> 
         {% endfor %}
         </p>
         {% endif %}
@@ -59,7 +59,7 @@ layout: default
         <b>METHODS</b>
         {% for i in methods %}
             {% assign j =  site.methods | where: "methods", i | first %}
-            | <a href="/{{i}}/">{{i}}</a> 
+            | <a href="/methods/{{i}}/">{{i}}</a> 
         {% endfor %}
         </p>
         {% endif %}

@@ -3,7 +3,7 @@ layout: page
 title: topics
 titleheader: Research Topics
 permalink: /topics/
-nav: false
+nav: true
 description: Metapages collecting information on topics of interest in the lab. 
 showtitle: true
 ---

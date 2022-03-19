@@ -3,7 +3,6 @@ layout: page
 title: Medical Imaging
 name: Medical Imaging
 bibkeyword: medical-imaging
-permalink: medical-imaging
 status: active
 projects: proj-digipath, proj-alzheimers
 domains: digital-pathology, proj-alzheimers

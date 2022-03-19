@@ -108,8 +108,26 @@ collections:
   topics:
     output: true
     permalink: /topics/:path/
-    publish: false
+    publish: true
     showbib: true
+  methods:
+    output: true
+    permalink: /methods/:path/
+    publish: true
+    showbib: true
+    showtitle: true
+  domains:
+    output: true
+    permalink: /domains/:path/
+    publish: true
+    showbib: true
+    showtitle: true
+  people:
+    output: true
+    permalink: /people/:path/
+    publish: true
+    showbib: true
+    showtitle: true
 
 news_limit: 3
 
