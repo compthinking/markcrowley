@@ -69,12 +69,23 @@ pagination:
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
+debug: true
 defaults:
-  scope:
-    type: "pages"
-  values:
-    layout: "page"
-    showtitle: true #you should use enter the title in the text so the description comes after it
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      showtitle: true #you should use enter the title in the text so the description comes after it
+  -
+    scope:
+      path: "_topics/"
+    values:
+      layout: "page"
+      permalink: topic/:topic/
+      showtitle: true #you should use enter the title in the text so the description comes after it
+
 
 collections:
   news:
@@ -107,9 +118,23 @@ collections:
     permalink: /oldprojects/:path/
   topics:
     output: true
-    permalink: /topics/:path/
+    permalink: /topic/:path/
     publish: false
     showbib: true
+    output: true
+  domain:
+    output: true
+    permalink: /domain/:path/
+    publish: false
+    showbib: true
+    showtitle: true
+    output: true
+  methods:
+    output: true
+    permalink: /methods/:path/
+    publish: false
+    showbib: true
+    showtitle: false
 
 news_limit: 3
 
