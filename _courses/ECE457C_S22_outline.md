@@ -12,30 +12,22 @@ importance: 1
 
 ---
 
-**Note:** This course was formerly known as [ECE 493 Topic 42 - Reinforcement Learning](/rlcourseS21/)
-
-| **Next Offering:** Spring 2022             | **Instructor:** Prof. Mark Crowley                                                               |
-| :---:                                      | :---:                                                                                            |
-| [Old Spring 2021 Website](/rlcourseS21/) | [Updated List of Resources and Links](https://gingkoapp.com/course-457c-links-for-students)  |
-| Piazza Discussions (TBD)                   | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) |
-
-
-
-<!--
-
-### Internal Links (TODO : update this)
-
-| Jump to ...                         |                              |                                |
-| :---------------------------------- | :--------------------------: | :----------------------------: |
-| [Course Topics](#topics)            | [Weekly Schedule](#schedule) |   [Assessment](#assessment)    |
-| [Course Tools and Websites](#tools) |    [Getting Help](#help)     | [Academic Policies](#policies) |
-| [Health and Wellness](#wellness)    |      [COVID-19](#covid)      |                                |
-
--->
-
 ### Course Description
 
 Introduction to [Reinforcement Learning](/reinforcement-learning/) (RL) theory and algorithms for learning decision-making policies in situations with uncertainty and limited information. Topics include Markov decision processes, classic exact/approximate RL algorithms such as value/policy iteration, Q-learning, State-action-reward-state-action (SARSA), Temporal Difference (TD) methods, policy gradients, actor-critic, and Deep RL such as Deep Q-Learning (DQN), Asynchronous Advantage Actor Critic (A3C), and Deep Deterministic Policy Gradient (DDPG).
+
+**Note:** This course was formerly known as [ECE 493 Topic 42 - Reinforcement Learning](/rlcourseS21/)
+
+### Links to More Information and Resources
+
+|                                                              |                                                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| **[Full Weekly Schedule and Deadlines](/ece457c-schedule/)** | **[Piazza Discussions](https://piazza.com/class/l2ki16zub3j192)** |
+| **[Textbook](http://incompleteideas.net/book/the-book-2nd.html)** | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) (from previous terms) |
+|                   [Course Topics](#topics)                   | [Assignments and Tests](#assessment)  (weights and deadlines) |
+| [Gingko List of Resources and Links](https://gingkoapp.com/course-457c-links-for-students) (a bit out of date) |           [Old Spring 2021 Website](/rlcourseS21/)           |
+|                    [Getting Help](#help)                     |                [Academic Policies](#policies)                |
+|               [Health and Wellness](#wellness)               |                      [COVID-19](#covid)                      |
 
 
 
@@ -47,10 +39,10 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 
 ## Spring 2022 - Course Staff
 
-| **Instructor:** Prof. Mark Crowley                           | TA: TBD      | TA: TBD      |
-| ------------------------------------------------------------ | ------------ | ------------ |
-| **Contact:** mcrowley@uwaterloo.ca (but for better results, use piazza or come to office hours) | **Contact:** | **Contact:** |
-| **Office Hour:** One-on-one bookable by Doodle (E5 4114 (or online)) |              |              |
+| **Instructor:** Prof. Mark Crowley                           | TA: Negin Azizi | TA: Xiaoliang Zhou |
+| ------------------------------------------------------------ | --------------- | ------------------ |
+| **Contact:** mcrowley@uwaterloo.ca (but for better results, use piazza or come to office hours) | **Contact:**    | **Contact:**       |
+| **Office Hour:** One-on-one bookable by Doodle (E5 4114 (or online)) |                 |                    |
 
 ### Lecture Locations and Times
 
@@ -130,7 +122,17 @@ together to make such systems possible.
 
 <a name="assessment"></a>
 
-TBD
+
+
+| Item                     | Weight Towards Final Grade | Released              | Due                              |
+| ------------------------ | -------------------------- | --------------------- | -------------------------------- |
+| Assignment 1             | 10%                        | Wednesday, May 11     | Wednesday, May 25 at 11:59pm     |
+| Midterm Exam (in person) | 25%                        |                       | Monday, Jun 13                   |
+| Assignment 2             | 15%                        | Wed, May 25           | Friday, June 17, 2022 at 11:59pm |
+| Assignment 3             | 20%                        | Friday, June 17, 2022 | Friday July 15, 2022 at 11:59pm  |
+| Final Exam               | 30%                        |                       | To Be Determined                 |
+
+
 
 
 
@@ -149,12 +151,8 @@ I know there has been app/feature/tool creep in courses as they the pandemic has
   - Your grades will be managed here, up until the final grade submission phase of the course.
   - Links, announcements and course materials will all be made available here as well.
   - Only registered students can access learn.
-- **Piazza** : *[ECE657A Discussions](https://piazza.com/uwaterloo.ca/winter2022/ece657a)*
+- **Piazza** : *[ECE457C Discussions](https://piazza.com/uwaterloo.ca/spring2022/ece457c)*
   - Online, threaded discussion forum with at the ability for students to construct an answer in addition to the answer provided by course staff.
-- **Hypothesis** : [Hypoth.ECE657A](https://hypothes.is/groups/xrxZM1b3/ece657a)
-  - For extra reading resources: textbook portions, published papers, unpublished tutorials on arxiv
-  - Allows collaborative annotation by the whole class and course staff.
-  - *replaces:* Zotero
 - **Crowdmark** : *(links will be made available as needed)*
   - A visual grading tool for pdfs submissions of tests and assignments, allows limited online test with mark-down text entry and multiple choice questions.
   - Used by the course staff for grading your tests.
@@ -268,6 +266,8 @@ If you're experiencing a crisis and feel unable to cope and Campus Wellness is c
 
 General University of Waterloo Guidelines:
 ------------------------------------------
+
+<a name="policies"></a>
 
 **Academic Integrity:** In order to maintain a culture of academic
 integrity, members of the University of Waterloo community are expected
